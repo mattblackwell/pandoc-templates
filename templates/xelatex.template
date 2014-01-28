@@ -1,6 +1,6 @@
 \documentclass[11pt,article,oneside]{memoir}
 \usepackage{org-preamble-xelatex}
-\input{vc}
+%\input{vc}
 
 $if(listings)$
 \usepackage{listings}
@@ -31,6 +31,8 @@ $if(graphics)$
 \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
 $endif$
 
+\usepackage{amsmath,amssymb}
+
 $if(title)$
 \title{\bigskip \bigskip $title$}
 $endif$ 
@@ -48,11 +50,11 @@ $endif$
 \setkeys{Gin}{width=1\textwidth} 	
 \setromanfont[Mapping=tex-text,Numbers=OldStyle]{Minion Pro} 
 \setsansfont[Mapping=tex-text]{Minion Pro} 
-\setmonofont[Mapping=tex-text,Scale=0.8]{Pragmata}
-\chapterstyle{article-4} 
-\pagestyle{kjh}
+\setmonofont[Mapping=tex-text,Scale=0.8]{Inconsolata}
+%\chapterstyle{article-4} 
+%\pagestyle{kjh}
 
-\published{$date$. Incomplete Draft. Please do not cite without permission.}
+%\published{$date$. Incomplete Draft. Please do not cite without permission.}
 
 $if(title)$
 \maketitle
