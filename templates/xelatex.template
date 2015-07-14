@@ -52,6 +52,8 @@ $for(header-includes)$
 $header-includes$
 $endfor$
 
+\usepackage{amsmath,amssymb}
+
 $if(title)$
 \title{\bigskip \bigskip $title$}
 $endif$ 
