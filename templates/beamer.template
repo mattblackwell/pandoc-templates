@@ -21,6 +21,7 @@ $endif$
 \newcommand{\indep}{\perp\!\!\!\perp}
 \newcommand{\inprob}{\stackrel{p}{\rightarrow}}
 \usepackage{tikz}
+\usetikzlibrary{arrows,positioning}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
 \usepackage{lmodern}
