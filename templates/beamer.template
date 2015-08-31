@@ -28,7 +28,7 @@ $endif$
 \usetikzlibrary{arrows,positioning}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
-\usepackage{lmodern}
+%\usepackage{lmodern} %chokes against other math fonts
 \ifxetex
   \usepackage{fontspec,xltxtra,xunicode}
   \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
