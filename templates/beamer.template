@@ -23,7 +23,11 @@ $endif$
 \newcommand{\blue}[1]{\textcolor{blue!60}{#1}}
 \newcommand{\indep}{\perp\!\!\!\perp}
 \newcommand{\inprob}{\stackrel{p}{\rightarrow}}
-\def\begincols{\begin{columns}}
+\makeatletter
+\def\begincols{\@ifnextchar[{\@with}{\@without}}
+\def\@with[#1]{\begin{columns}[#1]}
+\def\@without{\begin{columns}}
+\makeatother
 \def\endcols{\end{columns}}
 \def\begincol{\begin{column}}
 \def\endcol{\end{column}}
