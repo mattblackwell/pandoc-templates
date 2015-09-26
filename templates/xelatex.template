@@ -9,6 +9,7 @@
 \newtheorem{Com} {Comment}
 \usepackage{float}
 \newcommand{\E}{\mathbb{E}}
+\newcommand{\V}{\mathbb{V}}
 \newcommand{\au}{\underline{a}}
 \newcommand{\Au}{\underline{A}}
 \newcommand{\xu}{\underline{x}}
