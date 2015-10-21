@@ -14,7 +14,9 @@ $endif$
 \newcommand{\E}{\mathbb{E}}
 \newcommand{\V}{\mathbb{V}}
 \newcommand{\au}{\underline{a}}
+\newcommand{\du}{\underline{d}}
 \newcommand{\Au}{\underline{A}}
+\newcommand{\Du}{\underline{D}}
 \newcommand{\xu}{\underline{x}}
 \newcommand{\Xu}{\underline{X}}
 \newcommand{\Yu}{\underline{Y}}
