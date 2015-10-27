@@ -11,6 +11,7 @@ $endif$
 \usepackage{dcolumn}
 \newcolumntype{d}[1]{D{.}{.}{#1}}
 \usepackage{amssymb,amsmath}
+\definecolor{dodgerblue}{RGB}{52,152,219}
 \newcommand{\E}{\mathbb{E}}
 \newcommand{\V}{\mathbb{V}}
 \newcommand{\au}{\underline{a}}
@@ -23,8 +24,10 @@ $endif$
 \renewcommand{\P}{\mathbb{P}}
 \newcommand{\red}[1]{\textcolor{red!60}{#1}}
 \newcommand{\blue}[1]{\textcolor{blue!60}{#1}}
+\newcommand{\dblue}[1]{\textcolor{dodgerblue}{#1}}
 \newcommand{\indep}{\perp\!\!\!\perp}
 \newcommand{\inprob}{\stackrel{p}{\rightarrow}}
+\newcommand{\indist}{\stackrel{d}{\rightarrow}}
 \makeatletter
 \def\begincols{\@ifnextchar[{\@with}{\@without}}
 \def\@with[#1]{\begin{columns}[#1]}
