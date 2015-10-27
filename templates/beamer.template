@@ -28,6 +28,8 @@ $endif$
 \newcommand{\indep}{\perp\!\!\!\perp}
 \newcommand{\inprob}{\stackrel{p}{\rightarrow}}
 \newcommand{\indist}{\stackrel{d}{\rightarrow}}
+\newcommand{\eframe}{\end{frame}}
+\newcommand{\bframe}{\begin{frame}}
 \makeatletter
 \def\begincols{\@ifnextchar[{\@with}{\@without}}
 \def\@with[#1]{\begin{columns}[#1]}
