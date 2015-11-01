@@ -55,7 +55,7 @@ $endif$
 \def\begincol{\begin{column}}
 \def\endcol{\end{column}}
 \usepackage{tikz}
-\usetikzlibrary{arrows,positioning}
+\usetikzlibrary{arrows,positioning,shapes}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
 %\usepackage{lmodern} %chokes against other math fonts
