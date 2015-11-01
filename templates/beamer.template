@@ -28,7 +28,7 @@ $endif$
 \renewcommand{\u}{\ensuremath{\mb{u}}}
 \renewcommand{\v}{\ensuremath{\mb{v}}}
 \renewcommand{\U}{\ensuremath{\mb{U}}}
-\newcommand{\M}{\ensuremath{\mb{M}}}
+\renewcommand{\M}{\ensuremath{\mb{M}}}
 \newcommand{\X}{\ensuremath{\mb{X}}}
 \newcommand{\x}{\ensuremath{\mb{x}}}
 \newcommand{\y}{\ensuremath{\mb{y}}}
