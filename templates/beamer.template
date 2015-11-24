@@ -32,9 +32,9 @@ $endif$
 \newcommand{\X}{\ensuremath{\mb{X}}}
 \newcommand{\x}{\ensuremath{\mb{x}}}
 \newcommand{\y}{\ensuremath{\mb{y}}}
-\renewcommand{\b}{\ensuremath{\bs{\beta}}}
+\renewcommand{\b}{\ensuremath{\mb{\beta}}}
 \newcommand{\e}{\ensuremath{\bs{\epsilon}}}
-\newcommand{\bhat}{\ensuremath{\hat{\bs{\beta}}}}
+\newcommand{\bhat}{\ensuremath{\widehat{\mb{\beta}}}}
 \newcommand{\XX}{\ensuremath{\X'\X}}
 \newcommand{\XXinv}{\ensuremath{\left(\XX\right)^{-1}}}
 \newcommand{\hatsig}{\ensuremath{\hat{\sigma}^2}}
