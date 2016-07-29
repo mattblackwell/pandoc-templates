@@ -24,6 +24,7 @@ $endif$
 \renewcommand{\P}{\mathbb{P}}
 \newcommand{\bs}{\boldsymbol}
 \newcommand{\mb}{\mathbf}
+\newcommand{\Xbar}{\overline{X}}
 \newcommand{\real}{\mathbb{R}}
 \renewcommand{\u}{\ensuremath{\mb{u}}}
 \renewcommand{\v}{\ensuremath{\mb{v}}}
