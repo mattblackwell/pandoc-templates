@@ -16,12 +16,14 @@
 \newcommand{\Xu}{\underline{X}}
 \newcommand{\Yu}{\underline{Y}}
 \newcommand{\Xbar}{\overline{X}}
+\newcommand{\Ybar}{\overline{Y}}
 \renewcommand{\P}{\mathbb{P}}
 \newcommand{\red}[1]{\textcolor{red!60}{#1}}
 \newcommand{\blue}[1]{\textcolor{blue!60}{#1}}
 \newcommand{\indep}{\perp\!\!\!\perp}
 \newcommand{\inprob}{\stackrel{p}{\rightarrow}}
-
+\definecolor{dodgerblue}{RGB}{52,152,219}
+\definecolor{offwhite}{RGB}{236, 240, 241}
 $if(listings)$
 \usepackage{listings}
 $endif$

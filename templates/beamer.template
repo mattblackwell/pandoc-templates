@@ -25,6 +25,7 @@ $endif$
 \newcommand{\bs}{\boldsymbol}
 \newcommand{\mb}{\mathbf}
 \newcommand{\Xbar}{\overline{X}}
+\newcommand{\Ybar}{\overline{Y}}
 \newcommand{\real}{\mathbb{R}}
 \renewcommand{\u}{\ensuremath{\mb{u}}}
 \renewcommand{\v}{\ensuremath{\mb{v}}}
