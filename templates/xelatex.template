@@ -6,6 +6,13 @@
 \usepackage[reqno]{amsmath}
 \usepackage{amsthm}
 \usepackage{amssymb,enumerate}
+\newtheorem{thm}{Theorem}
+\newtheorem{lem}{Lemma}
+\newtheorem{cor}{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{problem}{Problem}
+\theoremstyle{remark}
 \newtheorem{Com} {Comment}
 \usepackage{float}
 \newcommand{\E}{\mathbb{E}}
