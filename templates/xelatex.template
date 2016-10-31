@@ -8,6 +8,7 @@
 \usepackage{amssymb,enumerate}
 \newtheorem{thm}{Theorem}
 \newtheorem{lem}{Lemma}
+\newtheorem{assump}{Assumption}
 \newtheorem{cor}{Corollary}
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}
