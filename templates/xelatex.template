@@ -29,6 +29,7 @@
 \newcommand{\blue}[1]{\textcolor{blue!60}{#1}}
 \newcommand{\indep}{\perp\!\!\!\perp}
 \newcommand{\inprob}{\stackrel{p}{\rightarrow}}
+\newcommand{\indist}{\stackrel{d}{\rightarrow}}
 \definecolor{dodgerblue}{RGB}{52,152,219}
 \definecolor{offwhite}{RGB}{236, 240, 241}
 $if(listings)$
@@ -81,7 +82,7 @@ $endif$
 \begin{document}  
 \setkeys{Gin}{width=1\textwidth} 	
 \setromanfont[Mapping=tex-text,Numbers=OldStyle]{Minion Pro} 
-\setsansfont[Mapping=tex-text]{Minion Pro} 
+\setsansfont[Mapping=tex-text]{Latin Modern Sans} 
 \setmonofont[Mapping=tex-text,Scale=0.8]{Inconsolata}
 \chapterstyle{article-4} 
 \pagestyle{kjh}
