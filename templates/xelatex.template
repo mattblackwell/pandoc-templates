@@ -28,7 +28,7 @@
 \renewcommand{\P}{\mathbb{P}}
 \newcommand{\real}{\mathbb{R}}
 \newcommand{\mb}{\mathbf}
-\newcommand{\bs}{\boldsymbol}
+\renewcommand{\bs}{\boldsymbol}
 \renewcommand{\u}{\ensuremath{\mb{u}}}
 \renewcommand{\v}{\ensuremath{\mb{v}}}
 \renewcommand{\U}{\ensuremath{\mb{U}}}
