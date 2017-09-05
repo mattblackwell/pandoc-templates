@@ -48,6 +48,12 @@ $endif$
 \newcommand{\indist}{\stackrel{d}{\rightarrow}}
 \newcommand{\eframe}{\end{frame}}
 \newcommand{\bframe}{\begin{frame}}
+\newcommand{\R}{\textsf{\textbf{R}}}
+\newcommand{\Rst}{\textsf{\textbf{RStudio}}}
+\newcommand{\rfun}[1]{\texttt{\color{magenta}{#1}}}
+\newcommand{\rpack}[1]{\textbf{#1}}
+\newcommand{\rexpr}[1]{\texttt{\color{magenta}{#1}}}
+\newcommand{\filename}[1]{\texttt{\color{blue}{#1}}}
 \makeatletter
 \def\begincols{\@ifnextchar[{\@with}{\@without}}
 \def\@with[#1]{\begin{columns}[#1]}
