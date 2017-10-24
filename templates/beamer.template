@@ -41,6 +41,7 @@ $endif$
 \newcommand{\XXinv}{\ensuremath{\left(\XX\right)^{-1}}}
 \newcommand{\hatsig}{\ensuremath{\hat{\sigma}^2}}
 \newcommand{\red}[1]{\textcolor{red!60}{#1}}
+\newcommand{\indianred}[1]{\textcolor{indianred}{#1}}
 \newcommand{\blue}[1]{\textcolor{blue!60}{#1}}
 \newcommand{\dblue}[1]{\textcolor{dodgerblue}{#1}}
 \newcommand{\indep}{\perp\!\!\!\perp}
